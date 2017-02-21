@@ -25,8 +25,8 @@ export default class App extends React.Component {
 function Counter() {
   return (
     <div>
-      <h1>{getState("counter")}</h1>
-      <button onClick={() => setState({ counter: getState("counter") + 1 })}>
+      <h1>{getState().counter}</h1>
+      <button onClick={() => setState({ counter: getState().counter + 1 })}>
         Increment
       </button>
     </div>
