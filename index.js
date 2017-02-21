@@ -28,7 +28,8 @@ function getStateContainer() {
 
 function getState(key, defaults) {
     if (key) {
-        return getStateContainer().state[key] || defaults;
+        var val = getStateContainer().state[key];
+        return defaults ? val || defaults : val;
     }
     return getStateContainer().state;
 }
