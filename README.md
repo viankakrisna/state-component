@@ -1,5 +1,5 @@
 # state-component
-A simple library to access and share React component state from other components.
+A simple state management library to access and update React component state from other components.
 
 Usage:
 
