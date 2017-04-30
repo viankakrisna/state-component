@@ -1,4 +1,6 @@
 # state-component
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/viankakrisna/state-component.svg)](https://greenkeeper.io/)
 A simple state management library to access and update React component state from other components.
 
 Usage:
